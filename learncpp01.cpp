@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
         int arr[]={12,23,78,98,67,56,45,19,65,9},key,i,flag=0;
-        cout << "\nENTER A NUMBER: ";
+       cout << "Check for a Prime Number";
+         cout << "\nENTER A NUMBER: ";
         cin >> key;
         for(i=0;i<10;i++)
         {
@@ -11,9 +12,9 @@ int main()
                         flag=1;
         }
         if(flag==1)
-                cout << "\nTHE NUMBER " << key << " EXISTS IN THE ARRAY\n",key;
+                cout << "\nTHE NUMBER " << key << " Is a Prime Number\n",key;
         else
-cout << "\nTHE NUMBER " << key << " DOES NOT EXIST IN THE ARRAY\n",key;
-        
+cout << "\nTHE NUMBER " << key << " Is not a Prime Number\n",key;
+
 }
 
