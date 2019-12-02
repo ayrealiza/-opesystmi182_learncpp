@@ -5,22 +5,25 @@ int main()
 {
         int num1;
         int num2;
-        cout <<"enter a number for num1:";
+        cout << "Smaller/Greater than identifier \n";
+        cout <<"enter the first number: ";
         cin >> num1;
-        cout << "enter a number for num2:";
+        cout << "enter the second number: ";
         cin >> num2;
         if(num1<num2)           //test-condition
         {
                 cout << num1;
                 cout << " is smaller than ";
-                cout << num2;
+                cout << num2 << " \n";
+        }
+        else if(num1 == num2)
+        {
+                cout << num1 << " is same to " << num2 << "\n" ;
         }
         else{
-                cout << "num2\n" << num2;
-                cout <<"is smaller than num1\n";
-                cout <<"num1\n" << num1;
+                cout << num1 << " is larger than " << num2 << "\n";
         }
         return 0;
 
-}
 
+}
