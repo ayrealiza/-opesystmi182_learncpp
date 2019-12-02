@@ -4,7 +4,7 @@ int main () {
 
 
    int i, j;
-
+   cout << "List of Prime Numbers";
    for(i = 2; i<100; i++) {
 
       for(j = 2; j <= (i/j); j++)
